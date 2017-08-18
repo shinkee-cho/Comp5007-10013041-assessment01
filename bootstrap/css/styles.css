@@ -1,18 +1,12 @@
-:root{
-    --cor-1st-letter : #fd8e35;
-    --cor-2nd-letter : #93bddd;
-    --cor-3rd-letter : #afd79f;
-}
-
 html, body { padding:0px; margin:0px; }
 
 /*******************************
      Nav. Bar
  *******************************/
 a.navbar-brand { color:#ccc !important; font-size: 24px; }
-.title_1st_letter { color: var(--cor-1st-letter); }
-.title_2st_letter { color: var(--cor-2nd-letter); }
-.title_3st_letter { color: var(--cor-3rd-letter); }
+.title_1st_letter { color: #FD8E35;  }
+.title_2st_letter { color: #93bddd; }
+.title_3st_letter { color: #afd79f; }
 
 /*******************************
      Texts Container
@@ -81,27 +75,22 @@ a.navbar-brand { color:#ccc !important; font-size: 24px; }
 @media screen and (min-width:0px) and (max-width:480px)
 {
     .famous_words p:nth-child(1) { font-size:24px; }
-
     .album .container {
         margin: 0px;
         padding: 0px;
         width: 100%;
     }
-
     .row {
         padding:0px;
         margin:0px;
         width:100%;
     }
-
     .row:hover { background: unset; } 
-
     .card {
         float: none;
         width:85%;
         margin:40px auto;
     }
-
     .card:active { 
         margin:40px auto;
         width:86%;
@@ -110,7 +99,7 @@ a.navbar-brand { color:#ccc !important; font-size: 24px; }
 
 /* common style for smartphone and 1 Column Layout */
 @media screen and (max-width:1000px)
-{   
+{
     .row .sub_row { display: block !important; }
 }
 
