@@ -1,6 +1,6 @@
 # Comp5007-10013041-assessment01
 
-------- normal      : for manual webpage
+------- manual      : for manual webpage
   |
   |---- bootstrap   : for webpage using bootstrap
   |
